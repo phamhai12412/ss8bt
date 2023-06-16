@@ -10,9 +10,9 @@ public class Main {
         Dog dog1 = new Dog("Bg", "Black");
         Dog dog2 = new Dog("Pg", "White");
         Cat cat = new Cat("Hiiiii");
-        System.out.println("Tên các con vợ là : " + animal.getName());
+        System.out.println("Tên là : " + animal.getName());
         animal.setName("Huuuuu");
-        System.out.println("Tên các con vợ là : " + animal.getName());
+        System.out.println("Tên là : " + animal.getName());
         animal.setName("haaaaaa");
         System.out.println("tên : " + dog1.getName());
         System.out.println("Sound : " + dog1.makeSound());
